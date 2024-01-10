@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 18px;
+  font-family: "DM Serif Display", serif;
+}
+body {
+  background: url(coFFeez.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+header {
+  padding: 25px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 2rem;
+  padding: 2px 0 2px 0;
+}
+nav a:hover {
+  background-color: #fff;
+  color: black;
+}
+div a {
+  color: #fff;
+  margin-left: 15px;
+}
+div a:hover {
+  background-color: #fff;
+  color: black;
+}
+section {
+  padding: 55px 7%;
+  max-width: 58rem;
+}
+
+.hero-description,
+.hero-heading {
+  color: #fff;
+  letter-spacing: 0.1rem;
+  padding-bottom: 1.3rem;
+}
+.hero-heading {
+  font-size: 4.5rem;
+  line-height: 4rem;
+}
+.btn {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 40px 10px 40px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  background-color: #495057;
+}
+.btn:hover {
+  background-color: #212529;
+}
